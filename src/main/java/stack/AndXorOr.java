@@ -1,4 +1,4 @@
-package test;
+package stack;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,7 +11,9 @@ public class AndXorOr {
     static List<Integer> array;
 
     public static void main( String[] args ) throws FileNotFoundException {
-        Scanner sc = new Scanner( new File( "D:\\APM\\APM-Onshore\\test\\input1.txt" ) );
+        Scanner sc = new Scanner( System.in );
+        
+        
         int n = sc.nextInt();
         array = new ArrayList<>();
         for ( int i = 0; i < n; i++ ) {

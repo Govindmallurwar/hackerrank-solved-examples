@@ -1,4 +1,4 @@
-package test;
+package stack;
 
 import org.python.util.PythonInterpreter;
 
